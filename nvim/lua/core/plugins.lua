@@ -30,9 +30,9 @@ require("lazy").setup({
 	{
 		'nvim-treesitter/nvim-treesitter',
 	},
-    {
-    	'neovim/nvim-lspconfig',
-    },
+	{
+		'neovim/nvim-lspconfig',
+	},
 --	{ "rose-pine/neovim", name = "rose-pine" }, тусклая для clang
 	{
         'joshdick/onedark.vim'
@@ -59,5 +59,6 @@ require("lazy").setup({
     },
     {
         'williamboman/mason.nvim',
+        build = ":MasonUpdate"
     },
 })
